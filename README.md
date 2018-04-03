@@ -1,7 +1,9 @@
 # LinuxConfig
 
 i. The IP address and SSH port so your server can be accessed by the reviewer.
+
 IP: http://54.209.65.232 SSH:2200
+
 ii. The complete URL to your hosted web application.
 http://54.209.65.232.xip.io
 iii. A summary of software you installed and configuration changes made.
