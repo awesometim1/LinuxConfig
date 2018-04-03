@@ -10,8 +10,13 @@ URL to Hosted web app:
 
 A summary of software I installed and configuration changes made.
 
-Installed software: apache2, postgresql, mod-wsgi, pip, sqlalchemy, oauth2client, requests, 
-Configuration Changes: Created user grader and gave sudo abilities, generated rsa keys with ssh-keygen, implemented ssh login on grader account, configured ufw to allow only 2200 for ssh 80 for http and 123 for ntp.
+Installed software
+
+        apache2, postgresqlmod-wsgi, pip, sqlalchemy, oauth2client, requests
+Configuration Changes
+1. Created user grader and gave sudo abilities
+2. Generated rsa keys with ssh-keygen and implemented ssh login on grader account 
+3. configured ufw to allow only 2200 for ssh 80 for http and 123 for ntp.
 
 ##### Creating user grader and give sudo 
 1. `sudo adduser grader`
